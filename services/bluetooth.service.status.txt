@@ -1,0 +1,19 @@
+● bluetooth.service - Bluetooth service
+   Loaded: loaded (/lib/systemd/system/bluetooth.service; enabled; vendor preset: enabled)
+   Active: active (running) since Sat 2024-05-18 07:37:56 PDT; 1 day 8h ago
+     Docs: man:bluetoothd(8)
+ Main PID: 69162 (bluetoothd)
+   Status: "Running"
+   CGroup: /system.slice/bluetooth.service
+           └─69162 /usr/lib/bluetooth/bluetoothd
+
+May 18 07:37:56 ubuntu bluetoothd[69162]: Not enough free handles to register service
+May 18 07:37:56 ubuntu bluetoothd[69162]: Current Time Service could not be registered
+May 18 07:37:56 ubuntu bluetoothd[69162]: gatt-time-server: Input/output error (5)
+May 18 07:37:56 ubuntu bluetoothd[69162]: Not enough free handles to register service
+May 18 07:37:56 ubuntu bluetoothd[69162]: Not enough free handles to register service
+May 18 07:37:56 ubuntu bluetoothd[69162]: Sap driver initialization failed.
+May 18 07:37:56 ubuntu bluetoothd[69162]: sap-server: Operation not permitted (1)
+May 18 07:37:56 ubuntu systemd[1]: Started Bluetooth service.
+May 18 07:37:56 ubuntu bluetoothd[69162]: Endpoint registered: sender=:1.54 path=/MediaEndpoint/A2DPSource
+May 18 07:37:56 ubuntu bluetoothd[69162]: Endpoint registered: sender=:1.54 path=/MediaEndpoint/A2DPSink

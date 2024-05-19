@@ -1,0 +1,11 @@
+● networking.service - Raise network interfaces
+   Loaded: loaded (/lib/systemd/system/networking.service; enabled; vendor preset: enabled)
+  Drop-In: /run/systemd/generator/networking.service.d
+           └─50-insserv.conf-$network.conf
+   Active: active (exited) since Sat 2024-05-18 07:11:50 PDT; 1 day 9h ago
+     Docs: man:interfaces(5)
+ Main PID: 527 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/networking.service
+
+May 18 07:11:50 ubuntu systemd[1]: Starting Raise network interfaces...
+May 18 07:11:50 ubuntu systemd[1]: Started Raise network interfaces.
