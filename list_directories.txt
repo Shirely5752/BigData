@@ -19,10 +19,12 @@
 ./.git/objects/1f
 ./.git/objects/cc
 ./.git/objects/6b
+./.git/objects/8c
 ./.git/objects/23
 ./.git/objects/a2
 ./.git/objects/12
 ./.git/objects/b7
+./.git/objects/54
 ./.git/objects/1d
 ./.git/objects/2c
 ./.git/objects/61
@@ -58,9 +60,11 @@
 ./.git/objects/13
 ./.git/objects/08
 ./.git/objects/8b
+./.git/objects/05
 ./.git/objects/02
 ./.git/objects/ed
 ./.git/objects/0e
+./.git/objects/95
 ./.git/branches
 ./.git/refs
 ./.git/refs/heads
