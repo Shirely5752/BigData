@@ -16,6 +16,7 @@
 ./.git/objects/b9
 ./.git/objects/79
 ./.git/objects/49
+./.git/objects/7c
 ./.git/objects/e6
 ./.git/objects/1f
 ./.git/objects/cc
@@ -28,6 +29,8 @@
 ./.git/objects/12
 ./.git/objects/b7
 ./.git/objects/54
+./.git/objects/89
+./.git/objects/c3
 ./.git/objects/1d
 ./.git/objects/2c
 ./.git/objects/61
@@ -46,7 +49,10 @@
 ./.git/objects/c2
 ./.git/objects/45
 ./.git/objects/pack
+./.git/objects/91
 ./.git/objects/6d
+./.git/objects/8f
+./.git/objects/c4
 ./.git/objects/bb
 ./.git/objects/43
 ./.git/objects/80
