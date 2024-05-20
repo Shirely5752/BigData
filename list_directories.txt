@@ -22,8 +22,10 @@
 ./.git/objects/61
 ./.git/objects/5e
 ./.git/objects/40
+./.git/objects/b3
 ./.git/objects/73
 ./.git/objects/e0
+./.git/objects/d5
 ./.git/objects/6a
 ./.git/objects/c2
 ./.git/objects/pack
