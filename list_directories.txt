@@ -16,7 +16,9 @@
 ./.git/objects/b9
 ./.git/objects/79
 ./.git/objects/e6
+./.git/objects/1f
 ./.git/objects/cc
+./.git/objects/23
 ./.git/objects/a2
 ./.git/objects/12
 ./.git/objects/b7
@@ -26,6 +28,7 @@
 ./.git/objects/5e
 ./.git/objects/a0
 ./.git/objects/40
+./.git/objects/00
 ./.git/objects/b3
 ./.git/objects/73
 ./.git/objects/e0
