@@ -1,5 +1,5 @@
+0.5        2.0        /usr/lib/xorg/Xorg
 0.5        2.9        compiz
-0.4        2.0        /usr/lib/xorg/Xorg
 0.3        1.1        /usr/lib/gnome-terminal/gnome-terminal-server
 0.1        0.2        /usr/bin/vmtoolsd
 0.1        0.9        /usr/bin/vmtoolsd
