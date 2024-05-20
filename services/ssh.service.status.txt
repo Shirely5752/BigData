@@ -1,11 +1,19 @@
 ● ssh.service - OpenBSD Secure Shell server
    Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
-   Active: active (running) since Sun 2024-05-19 19:11:25 PDT; 4min 11s ago
+   Active: active (running) since Sun 2024-05-19 19:11:25 PDT; 9h ago
+  Process: 105120 ExecReload=/bin/kill -HUP $MAINPID (code=exited, status=0/SUCCESS)
+  Process: 105115 ExecReload=/usr/sbin/sshd -t (code=exited, status=0/SUCCESS)
  Main PID: 104330 (sshd)
    CGroup: /system.slice/ssh.service
            └─104330 /usr/sbin/sshd -D
 
-May 19 19:11:25 ubuntu systemd[1]: Starting OpenBSD Secure Shell server...
-May 19 19:11:25 ubuntu sshd[104330]: Server listening on 0.0.0.0 port 22.
-May 19 19:11:25 ubuntu sshd[104330]: Server listening on :: port 22.
-May 19 19:11:25 ubuntu systemd[1]: Started OpenBSD Secure Shell server.
+May 20 02:21:29 ubuntu systemd[1]: Reloading OpenBSD Secure Shell server.
+May 20 02:21:29 ubuntu sshd[104330]: Received SIGHUP; restarting.
+May 20 02:21:29 ubuntu systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 20 02:21:29 ubuntu sshd[104330]: Server listening on 0.0.0.0 port 22.
+May 20 02:21:29 ubuntu sshd[104330]: Server listening on :: port 22.
+May 20 02:21:29 ubuntu systemd[1]: Reloading OpenBSD Secure Shell server.
+May 20 02:21:29 ubuntu sshd[104330]: Received SIGHUP; restarting.
+May 20 02:21:29 ubuntu systemd[1]: Reloaded OpenBSD Secure Shell server.
+May 20 02:21:29 ubuntu sshd[104330]: Server listening on 0.0.0.0 port 22.
+May 20 02:21:29 ubuntu sshd[104330]: Server listening on :: port 22.

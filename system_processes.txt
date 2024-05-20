@@ -1,19 +1,20 @@
-0.5        2.0        /usr/lib/xorg/Xorg
-0.5        2.9        compiz
-0.3        1.1        /usr/lib/gnome-terminal/gnome-terminal-server
-0.1        0.2        /usr/bin/vmtoolsd
-0.1        0.9        /usr/bin/vmtoolsd
-0.0        0.1        /lib/systemd/systemd
-0.0        0.0        [kthreadd]
-0.0        0.0        [ksoftirqd/0]
-0.0        0.0        [kworker/0:0H]
-0.0        0.0        [rcu_sched]
-0.0        0.0        [rcu_bh]
-0.0        0.0        [migration/0]
-0.0        0.0        [watchdog/0]
-0.0        0.0        [watchdog/1]
-0.0        0.0        [migration/1]
-0.0        0.0        [ksoftirqd/1]
-0.0        0.0        [kworker/1:0H]
-0.0        0.0        [kdevtmpfs]
-0.0        0.0        [netns]
+%CPU %MEM CMD
+ 0.5  2.9 compiz
+ 0.4  2.0 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 0.1  0.2 /usr/bin/vmtoolsd
+ 0.1  0.9 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+ 0.1  1.2 /usr/lib/gnome-terminal/gnome-terminal-server
+ 0.0  0.1 /lib/systemd/systemd --system --deserialize 19
+ 0.0  0.0 [kthreadd]
+ 0.0  0.0 [ksoftirqd/0]
+ 0.0  0.0 [kworker/0:0H]
+ 0.0  0.0 [rcu_sched]
+ 0.0  0.0 [rcu_bh]
+ 0.0  0.0 [migration/0]
+ 0.0  0.0 [watchdog/0]
+ 0.0  0.0 [watchdog/1]
+ 0.0  0.0 [migration/1]
+ 0.0  0.0 [ksoftirqd/1]
+ 0.0  0.0 [kworker/1:0H]
+ 0.0  0.0 [kdevtmpfs]
+ 0.0  0.0 [netns]
