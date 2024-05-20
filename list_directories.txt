@@ -36,6 +36,7 @@
 ./.git/objects/40
 ./.git/objects/00
 ./.git/objects/b3
+./.git/objects/df
 ./.git/objects/e2
 ./.git/objects/73
 ./.git/objects/e0
@@ -43,7 +44,9 @@
 ./.git/objects/6a
 ./.git/objects/af
 ./.git/objects/c2
+./.git/objects/45
 ./.git/objects/pack
+./.git/objects/6d
 ./.git/objects/bb
 ./.git/objects/43
 ./.git/objects/80

@@ -1,6 +1,6 @@
 ● bluetooth.service - Bluetooth service
    Loaded: loaded (/lib/systemd/system/bluetooth.service; enabled; vendor preset: enabled)
-   Active: active (running) since Sat 2024-05-18 07:37:56 PDT; 1 day 10h ago
+   Active: active (running) since Sat 2024-05-18 07:37:56 PDT; 1 day 11h ago
      Docs: man:bluetoothd(8)
  Main PID: 69162 (bluetoothd)
    Status: "Running"
