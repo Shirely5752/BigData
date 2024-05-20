@@ -12,6 +12,7 @@
 ./.git/objects/56
 ./.git/objects/info
 ./.git/objects/93
+./.git/objects/dc
 ./.git/objects/b9
 ./.git/objects/e6
 ./.git/objects/cc
@@ -39,6 +40,7 @@
 ./.git/objects/f3
 ./.git/objects/46
 ./.git/objects/07
+./.git/objects/44
 ./.git/objects/f0
 ./.git/objects/13
 ./.git/objects/08
